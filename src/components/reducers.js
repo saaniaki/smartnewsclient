@@ -8,7 +8,6 @@ export const news = (state = initialState, action) => {
     switch (type) {
         case CREATE_NEWS: {
             const {news} = payload;
-            console.log(state.data);
             return {
                 ...state,
                 data: state.data.concat(news)

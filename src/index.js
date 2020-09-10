@@ -9,7 +9,7 @@ import {configureStore} from "./store";
 import purple from "@material-ui/core/colors/purple";
 import {indigo} from "@material-ui/core/colors";
 
-export const SERVER_URL = "http://localhost:5000";
+export const SERVER_URL = "https://api.zippininterview.tk:5000";
 
 const theme = createMuiTheme({
     palette: {

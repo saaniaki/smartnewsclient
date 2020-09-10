@@ -34,7 +34,8 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     a: {
-        color: "white"
+        color: "white",
+        textDecoration: "unset"
     }
 }));
 
